@@ -1,0 +1,40 @@
+page accueil :
+		-header
+		-nav
+		-10 annonces(card)
+		-boutton ajouter
+		-pagination 
+		-footer
+
+page details :
+		-header
+		-nav
+		-annonces en détail
+		-bouton pour telecharger en pdf
+
+page ajout :
+		-header
+		-nav
+		-formulaire(title, detail, price, image, email)
+		-bouton envoyé, bouton annuler
+
+page modifier : 
+		-form(title, detail, price, image)
+		-bouton modifier, bouton valider
+
+page supprimer :
+		-afficher annonce
+		-bouton supprimer
+
+email de validation
+email de modification et validation
+email de suppression
+
+
+
+
+
+
+
+
+
