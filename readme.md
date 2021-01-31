@@ -1,4 +1,4 @@
-# Site d'annonces (ventes de voitures)
+# Site d'annonces
 ***
 ### Description du projet
 ***
