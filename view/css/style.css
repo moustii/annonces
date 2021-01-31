@@ -1,0 +1,107 @@
+/* GENEREAL */
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 5px 15px 15px black;
+}
+
+h1:hover {
+    color: #11294D;
+}
+
+/* HEADER */
+header {
+    background: #1d1d1d;
+    height: 20vh;
+}
+
+header p {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* SECTION ADS */
+
+.ads {
+    margin-top: 20px;
+}
+
+.card {
+    width: 400px;
+    box-shadow: 5px 5px 5px 0px rgba(17,41,77,0.9);
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+.card-text {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.space {
+    margin-bottom: 20px;
+} 
+
+.btn {
+    background: #11294D;
+    color: #fff;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
+    /* display: flex;
+    justify-content: center; */
+}
+
+.btn:hover {
+    background: #fff;
+    border: 1px solid #11294D;
+    color: #11294D;
+    box-shadow: #1d1d1d;
+}
+
+
+/* BUTTON ADD */
+.add {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+button {
+    background: #11294D;
+    border: 1px solid white;
+    border-radius: 13px;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #1d1d1d;
+    color: #fff;
+}
+
+
+
+
