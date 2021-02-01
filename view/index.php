@@ -53,7 +53,38 @@
 
             </div>
 
-            <div class="row justify-content-around ">
+            <div class="row justify-content-around space ">
+
+                <div class="card col-sm-3 col-md-4 col-lg-3">
+                    <img class="card-img-top" src="image/perfume.jpg" alt="ad image or nothing">
+                    <div class="card-body">
+                        <h4 class="card-title">Bleu de channel</h4>
+                        <p class="card-text">75.00 $</p>
+                        <a href="#" class="btn text-right float-right">Show more</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-3 col-md-4 col-lg-3">
+                    <img class="card-img-top" src="image/perfume.jpg" alt="ad image or nothing">
+                    <div class="card-body">
+                        <h4 class="card-title">Bleu de channel</h4>
+                        <p class="card-text">75.00 $</p>
+                        <a href="#" class="btn text-right float-right">Show more</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-3 col-md-4 col-lg-3">
+                    <img class="card-img-top" src="image/perfume.jpg" alt="ad image or nothing">
+                    <div class="card-body">
+                        <h4 class="card-title">Bleu de channel</h4>
+                        <p class="card-text">75.00 $</p>
+                        <a href="#" class="btn text-right float-right">Show more</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-around space ">
 
                 <div class="card col-sm-3 col-md-4 col-lg-3">
                     <img class="card-img-top" src="image/perfume.jpg" alt="ad image or nothing">
@@ -85,27 +116,32 @@
             </div>
             
         </section>
+        <!-- END SECTION ADS -->
 
-
-
-        
-        <!-- SECTION BUTTON -->
+        <!-- SECTION BUTTON ADD -->
         <section class="add">
             <button>Add an ad</button>
         </section>
+        <!-- END SECTION BUTTON ADD -->
 
-
-
-
-
-
-
+        <!-- SECTION PAGINATION -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        <!-- END PAGINATION -->
 
 
         <!-- FOOTER -->
         <footer>
             <span>2021 &copy; on sMell</span>
         </footer>
+        <!-- END FOOTER -->
 
         <!-- js link -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

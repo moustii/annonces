@@ -3,6 +3,8 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    color: #1d1d1d;
+    background: #f7f3f3;
 }
 
 h1 {
@@ -86,21 +88,38 @@ header p {
 
 button {
     background: #11294D;
-    border: 1px solid white;
+    color: #fff;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
+    border: 1px solid #1d1d1d;
     border-radius: 13px;
-    color: white;
-    padding: 10px 5px;
+    padding: 15px 35px;
     text-align: center;
 }
 
+button:hover {
+    background: #051122;
+}
 
+/* PAGINATION */
+.page-link {
+    border-style: none;
+    color: black;
+}
+
+.page-link:hover {
+    color: #11294D;
+}
 
 /* FOOTER */
 footer {
-    text-align: center;
     background: #1d1d1d;
     color: #fff;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 
